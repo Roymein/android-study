@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text"
+        android:textColor="#ff1911"
+        android:onClick="onClickTestClick"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:drawableRight="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:text="@string/tv_run_horse_light"
+        android:singleLine="true"/>
+
+
+</LinearLayout>

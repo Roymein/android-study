@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="tv_text">New TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew Text</string>
+    <string name="tv_run_horse_light">这是跑马灯的效果这是跑马灯的效果这是跑马灯的效果这是跑马灯的效果</string>
+</resources>
